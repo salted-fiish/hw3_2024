@@ -121,8 +121,6 @@ nav a:hover, nav a:focus {
   position: absolute;
   top: -40px;
   left: 0;
-  width: 100%;
-  text-align: center;
   z-index: 100;
 }
 
@@ -202,8 +200,8 @@ first div in the grid  and place it in the grid. */
         grid-row: 5;
       }
       
- /* Step 8: Write the selector/rule property to style the .text-block class. */
- .text-block {
+/* Step 8: Write the selector/rule property to style the .text-block class. */
+.text-block {
   display: grid;
   place-items: center;
   text-align: center;
